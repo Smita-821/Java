@@ -1,0 +1,22 @@
+class A{
+   A(int a)
+    {
+        System.out.println("Method " + a);
+    }
+}
+class B extends A{
+    B()
+    {
+      super(100);
+      ;
+        System.out.println("hello learner");
+    }
+}
+
+public class Main{
+    public static void main (String args[]){
+        B obj1=new B();
+     
+        
+    }
+}

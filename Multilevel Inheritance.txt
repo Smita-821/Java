@@ -1,0 +1,34 @@
+class A{
+    int a,b,c;
+    void add()
+    {
+        a=80;b=20;
+        c=a+b;
+        System.out.println("addition of a and b: "+c);
+    }
+}
+class B extends A{
+    void sub()
+    {
+        a=70;b=20;
+        c=a-b;
+        System.out.println("Subtraction of a and b: "+c); 
+    }
+}
+class C extends B{
+    void multiply()
+    {
+        a=70;b=20;
+        c=a*b;
+        System.out.println("Multiplication of a and b: "+c); 
+    }
+}
+class Main{
+    public static void main (String args[])
+    {
+        C a1=new C();
+        a1.add();
+        a1.sub();
+        a1.multiply();
+    }
+}

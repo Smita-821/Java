@@ -1,0 +1,30 @@
+class a{
+    void input(){
+        System.out.println("Enter your name");
+    }
+}
+class b extends a{
+     void show(){
+        System.out.println("My name is ankush");
+    }
+    
+}
+class c extends a{
+     void display(){
+        System.out.println("My name is akash");
+    }
+    
+}
+class Main{
+    public static void main (String args[]){
+    b obj1=new b();
+    c obj2=new c();
+    obj1.input();
+    obj1.show();
+     obj2.input();
+    obj2.display();
+    
+    
+
+}
+}

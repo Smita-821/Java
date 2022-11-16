@@ -1,0 +1,32 @@
+//method overriding
+class shape
+{
+    void draw()
+    {
+        System.out.println("cant say which shape");
+        
+    }
+}
+    class square extends shape
+    {
+        
+        void draw()
+        {
+        System.out.println("square is shape");
+        }
+        
+    }
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    square s1=new square();
+	    //shape s2=new shape();
+	    
+	    s1.draw();
+	   // s2.draw();
+	//	System.out.println("Hello World");
+	}
+}
+
